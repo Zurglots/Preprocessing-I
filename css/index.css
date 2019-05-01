@@ -196,7 +196,7 @@ body {
 .container .intro {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
@@ -206,7 +206,7 @@ body {
 .container .work {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
@@ -217,7 +217,7 @@ body {
 .container .skills {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
@@ -228,7 +228,7 @@ body {
 .container .contact {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
@@ -243,27 +243,82 @@ body {
   height: 1200px;
   border-left: 1px solid gray;
 }
+.container footer {
+  display: flex;
+  justify-content: center;
+  background: #bfbfbf;
+}
+.container footer p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .intro .intro-title {
   content: "";
   position: relative;
-  right: 25%;
-  left: 63%;
-  top: 20%;
+  left: 60%;
+  bottom: 15%;
   width: 11px;
   height: 11px;
   background: #336699;
   border-radius: 50%;
   align-items: center;
+  display: flex;
+}
+.intro h2 {
+  margin-left: -78px;
+  padding-top: 5px;
 }
 .work .work-title {
   content: "";
   position: relative;
-  right: 25%;
-  left: 63%;
-  top: 20%;
+  left: 60%;
+  bottom: 15%;
   width: 11px;
   height: 11px;
   background: #336699;
   border-radius: 50%;
   align-items: center;
+  display: flex;
+}
+.work h2 {
+  margin-left: -78px;
+  padding-top: 5px;
+}
+.skills .skills-title {
+  content: "";
+  position: relative;
+  right: 60%;
+  bottom: 10%;
+  width: 11px;
+  height: 11px;
+  background: #336699;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+}
+.skills h2 {
+  margin-left: 18px;
+  padding-top: 5px;
+}
+.contact .contact-title {
+  content: "";
+  position: relative;
+  right: 60%;
+  bottom: 10%;
+  width: 11px;
+  height: 11px;
+  background: #336699;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+}
+.contact h2 {
+  margin-left: 18px;
+  padding-top: 5px;
+}
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
