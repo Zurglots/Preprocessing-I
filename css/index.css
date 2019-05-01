@@ -134,3 +134,33 @@ html,
 body {
   height: 100%;
 }
+.container {
+  max-width: 900px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.container header {
+  width: 100%;
+}
+.container .header-class {
+  border: 2px solid purple;
+}
+.container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container nav a {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  border: 1px dashed orange;
+  justify-content: center;
+}
+.container .main-content {
+  border: 2px solid purple;
+  display: flex;
+}
