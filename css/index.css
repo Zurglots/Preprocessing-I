@@ -200,6 +200,7 @@ body {
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
+  border-radius: 9px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -210,6 +211,7 @@ body {
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
+  border-radius: 9px;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 150px;
@@ -221,6 +223,7 @@ body {
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
+  border-radius: 9px;
   justify-content: flex-start;
   align-items: center;
   margin-top: 150px;
@@ -232,6 +235,7 @@ body {
   height: 250px;
   margin: 0 auto;
   background: #bfbfbf;
+  border-radius: 9px;
   justify-content: flex-start;
   align-items: center;
 }
