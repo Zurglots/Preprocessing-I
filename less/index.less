@@ -144,15 +144,29 @@ body {
   max-width: 900px;
   border: 2px solid green;
   display: flex;
-  justify-content: center;
+  //   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
+  height: 1200px;
   header {
     // display: flex;
     // flex-direction: row;
     // align-items: space-between;
     // border: 2px dashed red;
     width: 100%;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .header-class {
@@ -170,12 +184,46 @@ body {
     width: 20%;
     border: 1px dashed orange;
     justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .main-content {
     .header-class;
     display: flex;
     // width: 100%;
+  }
+  .container-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // flex-grow: 1;
+    border: 3px solid green;
+    height: 800px;
+  }
+  .intro {
+    // flex-grow: 1;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid blue;
+  }
+
+  .work {
+    .intro;
+  }
+
+  .skills {
+    .intro;
+  }
+
+  .contact {
+    .intro;
+  }
+
+  .container-right {
+    .container-left;
   }
 }
 
