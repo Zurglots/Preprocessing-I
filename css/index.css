@@ -226,9 +226,9 @@ header a {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #c2dfe3;
+  border: medium solid #253237;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #c2dfe3;
+  border-color: transparent transparent transparent #253237;
 }
 .right::before {
   content: " ";
@@ -238,9 +238,9 @@ header a {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #c2dfe3;
+  border: medium solid #253237;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #c2dfe3 transparent transparent;
+  border-color: transparent #253237 transparent transparent;
 }
 .right::after {
   left: -16px;
@@ -255,6 +255,7 @@ header a {
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  border-radius: 5px;
 }
 footer {
   width: 15%;
@@ -263,6 +264,7 @@ footer {
   justify-content: center;
   height: 50px;
   border: 2px dashed white;
+  border-radius: 5px;
   background: #253237;
 }
 footer p {
