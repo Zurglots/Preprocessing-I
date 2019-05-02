@@ -156,6 +156,8 @@ body h2 {
   background: #253237;
   border-radius: 10px;
   margin-bottom: 30px;
+  margin-top: 10px;
+  width: 40%;
 }
 .banner h1 {
   display: flex;
@@ -187,8 +189,8 @@ header a {
   position: absolute;
   width: 6px;
   background-color: #253237;
-  top: -35px;
-  bottom: -15px;
+  top: -30px;
+  bottom: 45px;
   left: 50%;
   margin-left: -3px;
 }
@@ -224,9 +226,9 @@ header a {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #c2dfe3;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #c2dfe3;
 }
 .right::before {
   content: " ";
@@ -236,9 +238,9 @@ header a {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #c2dfe3;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #c2dfe3 transparent transparent;
 }
 .right::after {
   left: -16px;
@@ -249,6 +251,24 @@ header a {
   position: relative;
   border-radius: 6px;
 }
+.the-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+footer {
+  width: 15%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  border: 2px dashed white;
+  background: #253237;
+}
+footer p {
+  display: flex;
+  padding-top: 15px;
+}
 @media screen and (max-width: 600px) {
   .timeline::after {
     left: 31px;
@@ -257,6 +277,20 @@ header a {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+  }
+  header {
+    justify-content: left;
+  }
+  .banner {
+    margin: 0;
+    margin-left: 11px;
+  }
+  .the-footer {
+    justify-content: left;
+    margin-left: 15px;
+  }
+  footer {
+    min-width: 100px;
   }
   .container::before {
     left: 60px;
