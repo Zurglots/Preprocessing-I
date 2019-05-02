@@ -214,8 +214,6 @@ header a {
 }
 .left {
   left: 0;
-  display: flex;
-  justify-content: left;
 }
 .left h2 {
   display: flex;
