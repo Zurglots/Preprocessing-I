@@ -228,6 +228,13 @@ header {
 
 .left {
   left: 0;
+  display: flex;
+  justify-content: left;
+
+  h2 {
+    display: flex;
+    margin-left: 85%;
+  }
 }
 
 .right {
@@ -327,9 +334,9 @@ footer {
 
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid @bf-dark-bg;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent @bf-dark-bg transparent transparent;
   }
 
   .left::after,
@@ -339,6 +346,12 @@ footer {
 
   .right {
     left: 0%;
+  }
+
+  .left {
+    h2 {
+      margin: 0;
+    }
   }
 }
 

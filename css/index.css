@@ -214,6 +214,12 @@ header a {
 }
 .left {
   left: 0;
+  display: flex;
+  justify-content: left;
+}
+.left h2 {
+  display: flex;
+  margin-left: 85%;
 }
 .right {
   left: 50%;
@@ -296,9 +302,9 @@ footer p {
   }
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid #253237;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #253237 transparent transparent;
   }
   .left::after,
   .right::after {
@@ -306,5 +312,8 @@ footer p {
   }
   .right {
     left: 0%;
+  }
+  .left h2 {
+    margin: 0;
   }
 }
